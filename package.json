@@ -1,0 +1,68 @@
+{
+  "name": "UniPost",
+  "description": "UniPost Web App.\nMore info & source code here: https://github.com/ispires/UniPost",
+  "version": "0.0.1",
+  "main": "app/index.html",
+  "single-instance": true,
+  "dom_storage_quota": 40,
+  "window": {
+    "title": "UniPost",
+    "icon": "app/img/icons/icon128.png",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "resizable": true,
+    "width": 800,
+    "min_width": 675,
+    "height": 650,
+    "min_height": 650,
+    "show": true
+  },
+  "scripts": {
+    "start": "gulp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ispires/UniPost.git"
+  },
+  "author": "dacineu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ispires/UniPost/issues"
+  },
+  "locales": [
+    "en-us",
+    "es-es",
+    "de-de",
+    "it-it",
+    "ru-ru",
+    "ro-ro",
+    "nl-nl",
+    "pt-br"
+  ],
+  "homepage": "http://cubit.ro",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "event-stream": "^3.1.0",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.1.0",
+    "gulp-concat": "^2.1.7",
+    "gulp-grep-stream": "0.0.2",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-less": "^3.0.2",
+    "gulp-livereload": "^3.0.2",
+    "gulp-load-plugins": "^0.4.0",
+    "gulp-manifest": "0.0.3",
+    "gulp-minify-css": "^0.3.12",
+    "gulp-minify-html": "^0.1.1",
+    "gulp-ng-annotate": "~0.5.2",
+    "gulp-replace": "^0.2.0",
+    "gulp-rev": "^1.1.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-usemin": "^0.3.11",
+    "gulp-zip": "^0.1.2",
+    "http": "0.0.0",
+    "run-sequence": "^1.0.2",
+    "st": "^0.5.2"
+  }
+}
